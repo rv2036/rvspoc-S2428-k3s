@@ -1,36 +1,16 @@
-<!-- HTML Comments can be left in place or removed. -->
-<!-- Please see our contributing guide at https://github.com/k3s-io/k3s/blob/master/CONTRIBUTING.md for guidance on opening pull requests -->
+<!-- 请在以上位置添加 Pull request 描述 -->
+<!-- Please add Pull request description above -->
 
-#### Proposed Changes ####
+---
 
-<!-- Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request. -->
+请确认勾选以下复选框，声明本人已知悉对应的提交要求。
+(Please make sure to check the following box to declare that I am aware of the corresponding submission requirements.)
 
-#### Types of Changes ####
+- [ ] 本人已完整阅读并确认同意了本赛题的最新提交要求
+      (I have read in full and confirm that I agree to the latest Submission Requirements for this challenge),
+      [本赛题最新提交要求(The latest Submission Requirements)](https://rvspoc.org/S2428/#提交说明)
 
-<!-- What types of changes does your code introduce to K3s? Bugfix, New Feature, Breaking Change, etc -->
 
-#### Verification ####
+RISC-V 软件移植及优化锦标赛
 
-<!-- How can the changes be verified? Please provide whatever additional information necessary to help verify the proposed changes. -->
-
-#### Testing ####
-
-<!-- Is this change covered by testing? If not, consider adding a Unit or Integration test. -->
-<!-- See https://github.com/k3s-io/k3s/blob/master/tests/TESTING.md for more info -->
-
-#### Linked Issues ####
-
-<!-- Link any related issues, pull-requests, or commit hashes that are relevant to this pull request. If you are opening a PR without a corresponding issue please consider creating one first, at https://github.com/k3s-io/k3s/issues . A functional example will greatly help QA with verifying/reproducing a bug or testing new features. -->
-
-#### User-Facing Change ####
-<!--
-Does this PR introduce a user-facing change? If no, just write "NONE" in the release-note block below.
-If the PR requires additional action from users switching to the new release, include the string "action required".
--->
-```release-note
-
-```
-
-#### Further Comments ####
-
-<!-- If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution you did and what alternatives you considered, etc... -->
+RISC-V Software Porting and Optimization Championship
