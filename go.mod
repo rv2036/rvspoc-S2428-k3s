@@ -2,6 +2,9 @@ module github.com/k3s-io/k3s
 
 go 1.22.4
 
+replace github.com/marten-seemann/tcp => github.com/r-value/tcp v0.0.0-20211124094235-5d06fda83888
+replace inet.af/tcpproxy => github.com/inetaf/tcpproxy v0.0.0-20240214030015-3ce58045626c
+
 replace (
 	github.com/Microsoft/hcsshim => github.com/Microsoft/hcsshim v0.11.0
 	github.com/Mirantis/cri-dockerd => github.com/k3s-io/cri-dockerd v0.3.12-k3s1.30-3 // k3s/release-1.30

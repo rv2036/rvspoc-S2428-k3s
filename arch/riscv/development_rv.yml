@@ -1,0 +1,23 @@
+apiVersion: apps/v1   
+kind: Deployment    
+metadata:            
+  name: httpd-rv64-deployment    
+  labels:        
+    app: httpd-rv64    
+spec:            
+  replicas: 1    
+  selector:       
+    matchLabels: 
+      app: httpd-rv64
+  template:        
+    metadata:    
+      labels:    
+        app: httpd-rv64
+    spec:
+      nodeSelector:
+        os: arch
+      containers:   
+      - name: httpd-rv64
+        image: riscv64/httpd:alpine 
+        ports:
+          - containerPort: 80
