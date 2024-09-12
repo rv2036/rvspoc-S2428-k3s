@@ -265,7 +265,7 @@ milk-v-duos     Ready      <none>                 30s     v1.30.2+k3s-0ee714d6-d
 ```
 
 ```bash
-> kubectl label node milk-v-duos arch=riscv
+> kubectl label node milk-v-duos os=arch
 node/milk-v-duos labeled
 ```
 
