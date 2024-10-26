@@ -1,0 +1,13 @@
+diff --git a/device/milkv-duos-glibc-arm64-sd/genimage.cfg b/device/milkv-duos-glibc-arm64-sd/genimage.cfg
+index fa39f6c7b..d325aa91e 100644
+--- a/device/milkv-duos-glibc-arm64-sd/genimage.cfg
++++ b/device/milkv-duos-glibc-arm64-sd/genimage.cfg
+@@ -14,7 +14,7 @@ image rootfs.ext4 {
+ 		label = "rootfs"
+ 		use-mke2fs = true
+ 	}
+-	size = 768M
++	size = 2G
+ }
+ 
+ image milkv-duos-glibc-arm64-sd.img {

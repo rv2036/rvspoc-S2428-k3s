@@ -1,0 +1,13 @@
+diff --git a/device/milkv-duos-sd/genimage.cfg b/device/milkv-duos-sd/genimage.cfg
+index 55e9dbe72..c164704d3 100644
+--- a/device/milkv-duos-sd/genimage.cfg
++++ b/device/milkv-duos-sd/genimage.cfg
+@@ -13,7 +13,7 @@ image rootfs.ext4 {
+ 	ext4 {
+ 		label = "rootfs"
+ 	}
+-	size = 768M
++	size = 2G 
+ }
+ 
+ image milkv-duos-sd.img {
